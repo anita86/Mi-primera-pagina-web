@@ -1,0 +1,18 @@
+<?php
+	// conexion.php
+	
+	$conexion = mysqli_connect(
+			"localhost",
+			"root",
+			"",
+			"newsletter"
+			);
+			
+	If(mysqli_connect_errno($conexion)){
+     //Si no funcionó, mostramos el mensaje de error
+    echo “No se pudo conectar porque: “ .
+       mysqli_connect_error();	
+	   }
+			
+			
+?>

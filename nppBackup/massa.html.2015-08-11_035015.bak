@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Elecciones 2015</title>
+        <meta charset="utf-8">
+		<meta name="description" content="Elecciones Argentina 2015">
+		<link href="images/logo-sol.png" rel="shortcut icon">
+        <link href="styles4.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+	</head>
+
+    <body>
+        <div id="header">
+            <div id="top">
+					<img src="images/logo2.png" rel="logo" alt="logo">
+					<h1 class="titulo">Tu Voto Vale!</h1>
+					<h2>Herramientas y datos para votar con <span>conciencia</span></h2>
+            </div><!-- cierra top -->
+            <nav id="botonera">
+                <ul>
+					<li><a href="contenido.html">Elecciones 2015</a></li>
+					<li><a href="contenido.html">¿Cómo votar?</a></li>
+					<li><a href="contenido.html">Cuestión Ciudadana</a></li>
+					<li><a href="contenido.html" id="us">Nosotros</a></li>
+                </ul>
+            </nav><!-- cierra botonera -->
+        </div><!-- cierra header -->
+        
+        <div id="wrapper">
+			<div id="left">
+			   		<ul>
+						<li><a href="index.html" class="home" title="Index"></a></li>
+						<li><a href="https://twitter.com/?lang=es" class="tw" title="Twitter" target="_blank"></a></li>
+						<li><a href="https://www.facebook.com/" class="fb" title="Facebook" target="_blank"></a></li>
+						<li><a href="https://www.gmail.com/intl/es/mail/help/about.html" class="g" title="Googleplus" target="_blank"></a></li>
+						<li><a href="https://ar.linkedin.com/nhome/" class="in" title="Linkedin" target="_blank"></a></li>
+						<li><a href="formulario.html" class="email" title="Escribinos"></a></li>
+					</ul>			
+					<div class="newsletter">
+						<h3><a href="index.html">Suscribite al Newsletter</a></h3>
+						<form action="suscribir.php" method="post">
+						<input name="email" class="email "type="text" placeholder="Aquí su email"/>
+						<input class="enviar" type="submit" value="Enviar"/>
+						</form>
+					</div><!-- cierra newsletter -->	
+			</div><!-- cierra left -->
+            
+            <div id="content">
+               
+                <h2 id="candidato">Sergio Massa</h2>
+                			
+				<img src="images/img/massa.jpg" alt="Sergio Massa"><br>
+			                
+                <h3 id="propuesta">¿Quién es?</h3>
+                <p id="uno">
+				Daniel Osvaldo Scioli (Buenos Aires, 13 de enero de 1957) es un político, deportista y empresario argentino.
+				Actualmente es el gobernador de la provincia de Buenos Aires. En las décadas de 1980 y 1990, Scioli fue uno de 
+				los deportistas náuticos más reconocidos internacionalmente. Tras haber sido ocho veces campeón mundial y retirarse 
+				de la motonáutica, fue invitado al Partido Justicialista, tiempo más tarde Scioli asume como diputado nacional, para 
+				después ser secretario de deportes y secretario de turismo de la Nación. Fue vicepresidente de la República Argentina 
+				y es desde el 10 de diciembre de 2007, gobernador de la provincia de Buenos Aires. Reelecto en 2011, finalizará su 
+				mandato el 10 de diciembre de 2015. También fue el presidente del Partido Justicialista hasta mayo de 2014. Es 
+				candidato a presidente de la Nación Argentina por el Frente para la Victoria para las elecciones del año 2015, 
+				acompañado por Carlos Zannini como candidato a vicepresidente.</p><br>
+				
+				<aside id="redes">
+					<a href="http://www.danielscioli.com.ar/" title="web">Web</a>
+					<a href="https://www.facebook.com/danielsciolioficial" title="facebook">Facebook</a> 
+					<a href="https://twitter.com/danielscioli" title="twitter">Twitter</a>
+					<a href="https://instagram.com/danielscioli" title="instagram">Instagram</a> 
+				</aside>
+				
+				     <h4>¿Qué hace actualmente?</h4>
+				<p id="dos">El gobernador bonaerense y precandidato presidencial por el Frente para la Victoria, Daniel Scioli, 
+				descartó que haya un "shock de medidas económicas" en los primeros 100 días de gobierno en caso de ser elegido 
+				Presidente, y afirmó que están dadas las condiciones para "consolidar los logros" de los gobiernos kirchneristas.
+				Asimismo, señaló que la Argentina está preparada para encarar "un gran capítulo de desarrollo" en el cual,
+				dijo, "va a haber que poner todo el énfasis en producir y producir cada vez más en sectores estratégicos".</p><br>
+				
+			
+            </div><!-- cierra content -->
+		</div><!-- cierra wrapper -->
+        <div id="pie">
+				<div id="copy">
+					&copy; 2015 #tuVotoVale | <a href="#" class="designer" >ChanaDiseño</a>
+				</div><!-- cierra copy -->
+		</div><!-- cierra pie -->
+    </body>
+</html> 

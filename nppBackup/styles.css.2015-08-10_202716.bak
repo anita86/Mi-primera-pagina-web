@@ -1,0 +1,258 @@
+/* styles.css */
+/* THANK YOU:
+http://csssprites.com/
+www.subtlepatterns.com 
+http://www.freepik.es/
+
+
+*/
+*{ 	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(images/pw_maze_white_@2X.png);
+	background-repeat: repeat; 
+	font-family: 'Nunito', sans-serif;
+}
+
+#header{
+	background-image: url(images/pw_maze_white_@2X.png);
+	height: 180px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	top: 0px;
+}
+
+#top{
+	height: 130px;
+	width: 1100px;
+	margin: auto;
+}
+
+#top img{
+	float: left;
+	margin-left: 200px;
+	padding: 15px 0px;
+}
+
+#top h1{
+	color: #2F6BCD;
+	float: left;
+	font-size: 70px;
+	padding-top: 20px;
+	margin-left: 50px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 0.03em;
+}
+
+.titulo {
+	text-shadow: 6px 4px 6px #FFE8E8;
+	transition: all 0.2s;}
+
+#top h2{
+	float: left;
+	color: black;
+	font-size: 22px;
+	margin-left: 200px;
+	font-family: 'Acme', sans-serif;
+	letter-spacing: 0.03em;
+} 
+
+#top h2 span{
+color: #e21bbf;
+}
+
+#botonera{
+	position: fixed;
+	z-index: 9;
+	background-color: #ea0d6c; 	
+	height: 40px;
+	width: 100%;
+	top: 130px;
+	border-bottom: 10px solid #f6f8f6;
+}
+
+#botonera ul{
+	height: 40px;
+	width: 1100px;
+	margin: auto;	
+	list-style-type: none;
+}
+
+#botonera ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #ffffff;	
+	padding: 10px 70px;
+	float: left;
+	transition-property: all;
+	transition-duration: 0.1s;
+	display: inline-block
+	-webkit-transition: all 1s linear; 
+	-moz-transition: all 1s linear; 
+	-ms-transition: all 1s linear; 
+	-o-transition: all 1s linear; 
+	transition: all 1s linear; 
+}
+
+#botonera ul li a:hover{
+	background: #ccccc; 
+	color: blueviolet; 
+	box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.4); 
+	-webkit-transform: scale(1.3,1.3); 
+	-moz-transform: scale(1.3,1.3); 
+	-ms-transform: scale(1.3,1.3); 
+	-o-transform: scale(1.3,1.3); 
+	transform: scale(1.3,1.3); 
+	-webkit-transition: all .1s linear; 
+	-moz-transition: all .1s linear; 
+	-ms-transition: all .1s linear; 
+	-o-transition: all .1s linear; 
+	transition: all .1s linear; 
+}
+
+#botonera ul li a:not(#us){
+	border-right: 2px solid #f6f8f6;
+}
+
+#wrapper{
+	clear: both;
+	height: 680px;
+	width: 1100px;
+	margin: auto;
+	padding-top: 180px;
+	background-color: rgba(24, 24, 24, 0.8);
+}
+#left{
+	float: left;
+	height: 600px;
+	width: 100px;
+	text-align: center;
+	position: fixed;
+	margin: 10px 50px;
+}
+
+#left ul li{
+	list-style-type: none;
+}
+
+#left ul li a{ 
+	background-image:url(images/result.png);
+	display: block;
+	margin: 30px auto;
+	width: 39px; 
+	height: 39px;
+}
+/*  ---------------------------------------------
+  Social Icons Pack for Designers and Developers
+  by Stephanie Walter
+  http://www.inpixelitrust.fr/
+  exclusively for Onextrapixel.com and its readers.
+----------------------------------------------------*/
+#left ul li a.home{background-position: 0px 0px;}
+#left ul li a.home:hover{background-position: 0px -39px;}
+
+#left ul li a.tw{background-position: 0px -88px;}
+#left ul li a.tw:hover{background-position: 0px -127px;}
+
+#left ul li a.fb{background-position: 0px -176px;}
+#left ul li a.fb:hover{background-position: 0px -215px;}
+
+#left ul li a.g{background-position: 0px -264px;}
+#left ul li a.g:hover{background-position: 0px -303px;}
+
+#left ul li a.in{background-position: 0px -352px;}
+#left ul li a.in:hover{background-position: 0px -391px;}
+
+#left ul li a.email{background-position: 0px -440px;}
+#left ul li a.email:hover{background-position: 0px -479px;}
+
+#left .newsletter h3{
+	font-size: 14px;
+	color: white;
+}
+
+#left .newsletter form .email{
+	font-size: 12px;
+	width: 140px; 
+	margin-bottom: 5px;
+	text-align: center;
+	margin-left: -20px;
+}
+
+#left .newsletter form .enviar{
+	font-size: 12px;
+	width: 80px;
+}
+
+.flexslider{
+	width: 740px;
+	height: 450px;
+	float: right;
+	padding: 50px;
+}
+
+#pie{
+	width: 100%;
+	height: 30px;
+	background-color: rgba(140, 255, 233, 0.5);
+	border: 1px solid #7c7c7c;
+	font-size: 14px;
+	text-align: center;
+}
+	
+#copy{
+	color: #f2f03b;
+	margin-top: 5px;
+}
+
+#creditos{
+	color: #fff;
+	float: left;
+	padding-bottom: 10px;
+}
+
+/* media queries */
+@media all and (max-width: 320px){
+
+#header{
+	background-image: url(images/pw_maze_white_@2X.png);
+	height: 20%;
+	width: 100%;
+}
+	
+#top{
+	height: 30%;
+}
+	
+#top img{
+  display: none;
+}
+	
+#top h1{
+	color: #2F6BCD;
+	font-family: 'Bangers', cursive;
+	font-size: 250%;
+	margin-left: 5%;
+	padding-top: 2%;
+}
+
+#top h2{
+	float: left;
+	color: black;
+	font-size: 83%;
+	margin-left: -24%;
+	padding-top: 6%;
+	font-family: 'Acme', sans-serif;
+} 
+
+#top h2 span{
+color: #e21bbf;
+}
+
+
+	
+	
+} /* cierra queries */

@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Elecciones 2015</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Elecciones Argentina 2015">
+		<link href="images/logo-sol.png" rel="shortcut icon">
+        <link href="styles.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+		<!-- Place somewhere in the <head> of your document -->
+		<link rel="stylesheet" href="flexslider.css" type="text/css">
+	</head>
+    <body>
+        <div id="header">
+            <div id="top">
+					<img src="images/logo2.png" rel="logo" alt="logo">
+					<h1 class="titulo">Tu Voto Vale!</h1>
+					<h2>Herramientas y datos para votar con <span>conciencia</span></h2>
+            </div><!-- cierra top -->
+            <nav id="botonera">
+                <ul>
+                    <li><a href="contenido.html" >Elecciones 2015</a></li>
+					<li><a href="contenido.html" >¿Cómo votar?</a></li>
+					<li><a href="contenido.html" >Cuestión Ciudadana</a></li>
+					<li><a href="contenido.html" id="us" >Nosotros</a></li>
+                </ul>
+            </nav><!-- cierra botonera -->
+        </div><!-- cierra header -->
+        
+        <div id="wrapper">
+			<div id="left">
+			   		<ul>
+						<li><a href="home.html" class="home" title="Index"></a></li>
+						<li><a href="https://twitter.com/?lang=es" class="tw" title="Twitter" ></a></li>
+						<li><a href="https://www.facebook.com/" class="fb" title="Facebook" ></a></li>
+						<li><a href="https://www.gmail.com/intl/es/mail/help/about.html" class="g" title="Googleplus" ></a></li>
+						<li><a href="https://ar.linkedin.com/nhome/" class="in" title="Linkedin" ></a></li>
+						<li><a href="formulario.html" class="email" title="Escribinos"></a></li>
+					</ul>			
+					<div class="newsletter">
+						<h3>Suscribite al Newsletter</h3>
+						<form action="suscribir.php" method="post">
+						<input class="email" type="text" placeholder="Aquí su email"/>
+						<input class="enviar" type="submit" value="Enviar"/>
+						</form>
+					</div><!-- cierra newsletter -->	
+			</div><!-- cierra left -->
+			
+			<!-- Place somewhere in the <body> of your page -->
+			<div class="flexslider">
+			  <ul class="slides">
+				<li data-thumb="images/scioli.jpg"><img src="images/scioli.jpg" /></li>
+				
+				<li data-thumb="images/altamira.jpg"><img src="images/altamira.jpg" /></li>
+				
+				<li data-thumb="images/massa.jpg"><img src="images/massa.jpg" /></li>
+				
+				<li data-thumb="images/carrio.jpg"><img src="images/carrio.jpg" /></li>
+				
+				<li data-thumb="images/stolbizer.jpg"><img src="images/stolbizer.jpg" /></li>
+				
+				<li data-thumb="images/macri.jpg"><img src="images/macri.jpg" /></li>
+				
+			  </ul>
+            </div><!-- cierra flexslider -->           
+        </div><!-- cierra wrapper -->
+		
+        		<div id="pie">
+        				<div id="copy">
+        					&copy; 2015 #tuVotoVale | <a href="#" class="designer" >ChanaDiseño</a>
+        				</div><!-- cierra copy -->
+        		</div><!-- cierra pie -->
+		
+            			<!-- Llamo a Jquery -->
+            	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+            	
+            	<!-- Llamo al archivo JS de Flexslider. Debe estar despues de la llamada a Jquery ya que necesita que ese archivo se cargue antes -->
+            	<script src="jquery.flexslider-min.js"></script>
+            	
+            	<!-- Pegamos el codigo que me muestra el demo -->
+            	<script>
+            		// Can also be used with $(document).ready()
+						$(window).load(function() {
+						  $('.flexslider').flexslider({
+							animation: "slide",
+							controlNav: "thumbnails"
+						  });
+						});
+            	</script>
+		
+    </body>
+</html>

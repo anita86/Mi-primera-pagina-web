@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Elecciones 2015</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Elecciones Argentina 2015">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<link href="images/logo-sol.png" rel="shortcut icon">
+        <link href="styles3.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+	</head>
+
+    <body>
+        <div id="header">
+            <div id="top">
+					<img src="images/logo2.png" rel="logo" alt="logo">
+					<h1 class="titulo">Tu Voto Vale!</h1>
+					<h2>Herramientas y datos para votar con <span>conciencia</span></h2>
+            </div><!-- cierra top -->
+            <nav id="botonera">
+                <ul>
+					<li><a href="contenido.html" >Elecciones 2015</a></li>
+					<li><a href="contenido.html" >¿Cómo votar?</a></li>
+					<li><a href="contenido.html" >Cuestión Ciudadana</a></li>
+					<li><a href="contenido.html" id="us" >Nosotros</a></li>
+                </ul>
+            </nav><!-- cierra botonera -->
+        </div><!-- cierra header -->
+        
+        <div id="wrapper">
+			<div id="left">
+			   		<ul>
+						<li><a href="index.html" class="home" title="Index"></a></li>
+						<li><a href="https://twitter.com/?lang=es" class="tw" title="Twitter" ></a></li>
+						<li><a href="https://www.facebook.com/" class="fb" title="Facebook" ></a></li>
+						<li><a href="https://www.gmail.com/intl/es/mail/help/about.html" class="g" title="Googleplus" ></a></li>
+						<li><a href="https://ar.linkedin.com/nhome/" class="in" title="Linkedin" ></a></li>
+						<li><a href="formulario.html" class="email" title="Escribinos"></a></li>
+					</ul>			
+					<div class="newsletter">
+						<h3>Suscribite al Newsletter</h3>
+						<form action="suscribir.php" method="post">
+						<input class="email" type="text" placeholder="Aquí su email"/>
+						<input class="enviar" type="submit" value="Enviar"/>
+						</form>
+					</div><!-- cierra newsletter -->	
+			</div><!-- cierra left -->
+            
+            <div id="content">
+               <article>
+                <h2>Título 1</h2>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                
+					<section id="uno">
+					<img src="images/ivo.png" alt="Corta la bocha">
+						<h3>Título 2</h3>
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					</section>
+					<section id="dos">
+						<img src="images/granaderos.jpg" alt="granaderos">
+						<h5>Título 3</h5>
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					</section>
+					
+				</article>
+                    
+            </div><!-- cierra content -->
+		</div><!-- cierra wrapper -->
+            
+		<div id="pie">
+				<div id="copy">
+					&copy; 2015 #tuVotoVale | <a href="#" class="designer" >ChanaDiseño</a>
+				</div><!-- cierra copy -->
+		</div><!-- cierra pie -->
+    </body>
+</html>

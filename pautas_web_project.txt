@@ -1,0 +1,13 @@
+WEB PROJECT 2
+<Analía Bobadilla>
+
+URL del sitio:
+http://www.voto2015.webatu.com/index.html
+
+Pautas de entrega (opcionales, mínimo 3)
+-Favico del sitio web en todas las páginas.
+-Transiciones y animaciones en CSS3
+-HTML validado por la W3C
+-Etiquetas semánticas de HTML5
+-Formulario validado por JavaScript.
+

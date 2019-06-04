@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Elecciones 2015</title>
+        <meta charset="utf-8">
+		<meta name="description" content="Elecciones Argentina 2015">
+		<link href="images/logo-sol.png" rel="shortcut icon">
+        <link href="styles4.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+	</head>
+
+    <body>
+        <div id="header">
+            <div id="top">
+					<img src="images/logo2.png" rel="logo" alt="logo">
+					<h1 class="titulo">Tu Voto Vale!</h1>
+					<h2>Herramientas y datos para votar con <span>conciencia</span></h2>
+            </div><!-- cierra top -->
+            <nav id="botonera">
+                <ul>
+					<li><a href="contenido.html">Elecciones 2015</a></li>
+					<li><a href="contenido.html">¿Cómo votar?</a></li>
+					<li><a href="contenido.html">Cuestión Ciudadana</a></li>
+					<li><a href="contenido.html" id="us">Nosotros</a></li>
+                </ul>
+            </nav><!-- cierra botonera -->
+        </div><!-- cierra header -->
+        
+        <div id="wrapper">
+			<div id="left">
+			   		<ul>
+						<li><a href="index.html" class="home" title="Index"></a></li>
+						<li><a href="https://twitter.com/?lang=es" class="tw" title="Twitter" target="_blank"></a></li>
+						<li><a href="https://www.facebook.com/" class="fb" title="Facebook" target="_blank"></a></li>
+						<li><a href="https://www.gmail.com/intl/es/mail/help/about.html" class="g" title="Googleplus" target="_blank"></a></li>
+						<li><a href="https://ar.linkedin.com/nhome/" class="in" title="Linkedin" target="_blank"></a></li>
+						<li><a href="formulario.html" class="email" title="Escribinos"></a></li>
+					</ul>			
+					<div class="newsletter">
+						<h3><a href="index.html">Suscribite al Newsletter</a></h3>
+						<form action="suscribir.php" method="post">
+						<input name="email" class="email "type="text" placeholder="Aquí su email"/>
+						<input class="enviar" type="submit" value="Enviar"/>
+						</form>
+					</div><!-- cierra newsletter -->	
+			</div><!-- cierra left -->
+            
+            <div id="content">
+               
+                <h2 id="candidato">Elisa Carrió</h2>
+                			
+				<img src="images/img/carrio.jpg" alt="Elisa Carrió"><br>
+			                
+                <h3 id="propuesta">¿Qué propone?</h3>
+                <p id="uno">
+				Tenemos que reducir drásticamente Ganancias, tenemos que bajar el IVA y simplificar impuestos, tenemos que bajarretenciones, yo creo en una revolución tributaria, 
+				y si tengo que pedir dinero afuera para llevar a cabo, lo haré. Toti es un trabajador pobre, que va a ser mi vicepresidente, no es cuestión de hablar bien de los pobres,
+				es cuestión de llevar al poder la sabiduría de los pobres, para que ellos sean efectivamente el control de que un programa se aplique. Lo que hace Cristina es darle a la
+				genteq ue no trabaja y excluye a la gente que trabaja y también es pobre. Y eso esuna injusticia. No te pueden dar un plan a cambio de que no trabajes, tiene que  
+				complementarse con el trabajo. Te tienen que dar un plan para que tus hijos coman mientras buscás trabajo, mientras te capacitás para un trabajo, porque de qué va a vivir 
+				esa gente cuando sus hijos cumplan 18 años, ¿van a obligar a sus hijas a tener hijos?</p><br>
+				
+				<aside id="redes">
+					<a href="http://www.elisacarrio.com.ar/index2.asp?seccion=home" title="web">Web</a>
+					<a href="https://www.facebook.com/Elisa.Lilita.Carrio" title="facebook">Facebook</a> 
+					<a href="https://twitter.com/elisacarrio" title="twitter">Twitter</a>
+					<a href="https://instagram.com/elisacarrio/" title="instagram">Instagram</a> 
+				</aside>
+				
+				     <h4>¿Qué hace actualmente?</h4>
+				<p id="dos">Desde diciembre del 2009 es diputada nacional de la Coalición Cívica por la Ciudad de Buenos Aires, y es miembro de las Comisiones de Asuntos 
+				Constitucionales y Juicio Político. Además conduce junto al ex diputado y dirigente social Héctor “Toty” Flores el MR 2012, Movimiento Humanitario de 
+				Resistencia 2012. Las problemáticas centrales de su trabajo han estado asociadas a la construcción de una República, que no puede pensarse sin democracia 
+				y a una democracia que no es posible sin justicia ni verdad. Los principios que guían a la Coalición Cívica son: República, Etica y Distribución del Ingreso. 
+				Su tarea política siempre estuvo marcada por la lucha contra la corrupción y por la construcción de un modelo republicano con justicia social.</p><br>
+				
+			
+            </div><!-- cierra content -->
+		</div><!-- cierra wrapper -->
+        <div id="pie">
+				<div id="copy">
+					&copy; 2015 #tuVotoVale | <a href="https://www.facebook.com/" class="designer" >ChanaDiseño</a>
+				</div><!-- cierra copy -->
+		</div><!-- cierra pie -->
+    </body>
+</html>
